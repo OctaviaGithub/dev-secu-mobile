@@ -35,7 +35,8 @@ Activation de la vérification à deux facteurs - Vous pouvez également activer
 
 les attaques brute force ne servent pas qu’à deviner des identifiants ou des mots de passe. Elles servent souvent de vecteurs pour lancer d’autres attaques et exploiter les vulnérabilités de certains systèmes :
 
-Problèmes de droits (IDOR) via devinette d’identifiants en cas de défaut de contrôle d’accès permettant d’accéder à des données ou des fichiers, etc.
+- Problèmes de droits (IDOR) via devinette d’identifiants en cas de défaut de contrôle d’accès permettant d’accéder à des données ou des fichiers, etc.
 
- Fuzzing (recherche de contenus) via utilisation d’un dictionnaire pour trouver des fichiers non répertoriés sur l’interface d’une application par exemple.  
-Énumération d’utilisateurs en cas de mauvaises configuration permettant d’offrir d’autres options à un attaquant comme cibler des utilisateurs via du phishing par exemple.
+ -Fuzzing (recherche de contenus) via utilisation d’un dictionnaire pour trouver des fichiers non répertoriés sur l’interface d’une application par exemple. 
+
+-Énumération d’utilisateurs en cas de mauvaises configuration permettant d’offrir d’autres options à un attaquant comme cibler des utilisateurs via du phishing par exemple.
