@@ -16,7 +16,7 @@ Le fonctionnement de l’attaque par force brute est proche de l’attaque par c
 est une tentative visant à craquer un mot de passe ou un nom d'utilisateur, ou encore à trouver une page Web cachée ou la clé utilisée pour chiffrer un message, via un processus d'essais et d'erreurs pour, au bout du compte, espérer deviner juste. C'est une vieille méthode d'attaque, mais elle reste efficace et répandue parmi les pirates.
 
 
-Des outils automatisés sont également disponibles pour vous aider à lutter contre les attaques par force brute (Brutus, Medusa, THC Hydra, Ncrack, John the Ripper, Aircrack-ng et Rainbow, par exemple). Beaucoup de pirates sont en mesure de trouver un mot de passe par dictionnaire en une seconde.
+onDes outils automatisés sont également dispibles pour vous aider à lutter contre les attaques par force brute (Brutus, Medusa, THC Hydra, Ncrack, John the Ripper, Aircrack-ng et Rainbow, par exemple). Beaucoup de pirates sont en mesure de trouver un mot de passe par dictionnaire en une seconde.
 
 
 
@@ -45,6 +45,16 @@ PLUSIEURS TYPE D'ATTAQUES :
 
 Les attaques par dictionnaire
 
+    Les attaques par dictionnaire sont des méthodes courantes en informatique où un attaquant utilise une liste préétablie de mots de passe potentiels pour tenter d'accéder à un système. Cette liste, appelée dictionnaire, peut inclure des mots courants, des combinaisons de mots, ou être personnalisée en fonction de données spécifiques à la victime. Les attaquants automatisent le processus en essayant chaque mot de passe sur le système cible. Pour se protéger, il est crucial d'utiliser des mots de passe forts, d'adopter des pratiques de sécurité comme l'authentification à deux facteurs, et de limiter le nombre de tentatives de connexion.
+
 Le password spraying
 
+    
+    Le password spraying est une technique d'attaque informatique où un attaquant teste un petit ensemble de mots de passe sur un grand nombre de comptes pour éviter les verrouillages liés aux tentatives répétées. En choisissant des mots de passe couramment utilisés, l'attaquant tente de rester discret. Les organisations doivent se protéger en encourageant l'utilisation de mots de passe forts, en mettant en place une authentification à deux facteurs et en surveillant les activités suspectes pour détecter les tentatives d'accès non autorisées.
+
+    
+
 Le credential stuffing
+
+    Le credential stuffing est une attaque informatique où des combinaisons de noms d'utilisateur et de mots de passe, obtenues à partir de fuites de données, sont automatiquement testées sur d'autres services en exploitant la tendance des utilisateurs à réutiliser leurs identifiants. Pour se protéger, il est crucial d'encourager l'utilisation de mots de passe uniques, d'adopter l'authentification à deux facteurs (2FA) et de mettre en place des mesures de détection pour repérer les activités suspectes.
+   
