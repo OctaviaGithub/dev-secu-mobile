@@ -33,4 +33,9 @@ Limitation de tentatives de connexion - La solution la plus simple à ce problè
 Activation de la vérification à deux facteurs - Vous pouvez également activer la vérification à deux facteurs. Dans ce cas, les pirates peuvent être en mesure d'utiliser votre force brutale pour obtenir votre mot de passe, mais après l'avoir saisi, ils doivent également entrer un code qui est envoyé à votre téléphone portable ou créé par une application tierce. Pour pirater votre compte, ils devraient voler votre mot de passe ET votre téléphone cellulaire. Certaines applications d’autorisation à deux facteurs courants sont Google Authenticator, 1Password (sert également de coffre-fort de mot de passe sécurisé), LastPass Authenticator (uniquement pour IOS) et Authy.
 
 
+les attaques brute force ne servent pas qu’à deviner des identifiants ou des mots de passe. Elles servent souvent de vecteurs pour lancer d’autres attaques et exploiter les vulnérabilités de certains systèmes :
 
+Problèmes de droits (IDOR) via devinette d’identifiants en cas de défaut de contrôle d’accès permettant d’accéder à des données ou des fichiers, etc.
+
+ Fuzzing (recherche de contenus) via utilisation d’un dictionnaire pour trouver des fichiers non répertoriés sur l’interface d’une application par exemple.  
+Énumération d’utilisateurs en cas de mauvaises configuration permettant d’offrir d’autres options à un attaquant comme cibler des utilisateurs via du phishing par exemple.
