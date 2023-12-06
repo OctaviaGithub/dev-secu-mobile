@@ -40,3 +40,11 @@ les attaques brute force ne servent pas qu’à deviner des identifiants ou des 
  -Fuzzing (recherche de contenus) via utilisation d’un dictionnaire pour trouver des fichiers non répertoriés sur l’interface d’une application par exemple. 
 
 -Énumération d’utilisateurs en cas de mauvaises configuration permettant d’offrir d’autres options à un attaquant comme cibler des utilisateurs via du phishing par exemple.
+
+PLUSIEURS TYPE D'ATTAQUES :
+
+Les attaques par dictionnaire
+
+Le password spraying
+
+Le credential stuffing
